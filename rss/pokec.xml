@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+   <channel>
+    <atom:link href="http://outdoorlight.webnode.cz/rss/pokec.xml" rel="self" type="application/rss+xml" />
+      <title><![CDATA[Pokec - outdoorlight.webnode.cz]]></title>
+      <link>http://outdoorlight.webnode.cz</link>
+      <language>cs</language>
+      <pubDate> +0200</pubDate>
+      <lastBuildDate> +0200</lastBuildDate>
+      <category><![CDATA[Pokec]]></category>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>Webnode</generator>
+   </channel>
+</rss>

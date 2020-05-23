@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+   <channel>
+    <atom:link href="http://outdoorlight.webnode.cz/rss/all.xml" rel="self" type="application/rss+xml" />
+      <title><![CDATA[outdoorlight.webnode.cz]]></title>
+      <link>http://outdoorlight.webnode.cz/archive/news/</link>
+      <description></description>
+      <language>cs</language>
+      <pubDate>Fri, 19 Apr 2013 13:19:00 +0200</pubDate>
+      <lastBuildDate>Fri, 19 Apr 2013 13:19:00 +0200</lastBuildDate>
+      <category><![CDATA[Úvod]]></category>
+      <category><![CDATA[Pokec]]></category>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>Webnode</generator>
+      <item>
+         <title><![CDATA[Prolog]]></title>
+         <link>http://outdoorlight.webnode.cz/news/prolog/</link>
+         <description><![CDATA[Jsou lidé,kterým volnost stačí
+&nbsp;jen na úrovni vlastní cely,
+Ženou se k&nbsp;smrti, aby měli to,
+&nbsp;co má soused a pokud možno dražší
+I to je cesta svého druhu
+&nbsp;a oni po ní vysíleně kráčí
+Celý život v&nbsp;bludném kruhu.
+A pak jsou druzí,
+kterým znějí v&nbsp;hlavě závratné tóny.
+Ti kašlou na pohodlí a kromě k&nbsp;Bohu se modlí
+&nbsp;taky k &nbsp;ohni, lesům, potokům a trávě
+a slunci ať udělá&nbsp; z&nbsp;deště duhu
+A jejich cesta míří nesmlouvavě
+někam, kde nelze chodit...]]></description>
+         <pubDate>Fri, 19 Apr 2013 13:19:00 +0200</pubDate>
+         <guid isPermaLink="true">http://outdoorlight.webnode.cz/news/prolog/</guid>
+         <category>Úvod</category>
+      </item>
+   </channel>
+</rss>

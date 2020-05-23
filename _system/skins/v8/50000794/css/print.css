@@ -1,0 +1,480 @@
+body {
+	font: 0.80em Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #454143;
+}
+.hidden, #hidden {
+	position: absolute;
+	display: none;
+}
+.cleaner {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* ------- HEADER ---------- */
+#logozone #logo {
+	font-size: 2.2em;
+}
+#logozone #logo a, #logozone #logo a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+#logozone #moto {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #98af2b;
+}
+/* ------- HEADER --------- */
+
+/* ------  MAIN ------------ */
+.box {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 0;
+}
+.boxTitle h1, .boxTitle h2 {
+	color: #000000;
+	line-height: 1.5em;
+	font-size: 1.6em;
+	font-weight: normal;
+}
+.boxContent {
+	margin: 10px 0 0 0;
+	padding: 0 10px 0 10px;
+}
+/* ------  MAIN ------------ */
+
+/* ----- CONTACT ------------ */
+#contact p {
+	margin-bottom: 5px;
+}
+.name {
+	font-weight: bold;
+}
+#contact a {
+	color: #000000;
+	text-decoration: underline;
+}
+#contact a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+/* ----- CONTACT ------------ */
+
+/* -------- ARTICLES -------- */
+.article h3 {
+	margin-bottom: 3px;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: none;
+	font-style: italic;
+	padding-left: 0;
+}
+.article h3 a {
+	color: #000000;
+	text-decoration: underline;
+	background: none;
+	font-style: italic;
+}
+.article h3 a:hover {
+	color: #98af2b;
+	text-decoration: underline;
+	background: none;
+	font-style: italic;
+}
+.article ins {
+	text-decoration: none;
+	color: #98af2b;
+	font-size: 0.85em;
+}
+.articleTime ins {
+	color: #98af2b;
+	text-decoration: none;
+	font-size: 0.85em;
+}
+.article .articleContent {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	line-height: 1.6em;
+}
+.article .articleContent img {
+	margin: 5px;
+}
+/* -------- ARTICLES -------- */
+
+/* ------- LINK and INFO ----- */
+.archive {
+	margin-bottom: 5px;
+}
+.back {
+	margin-top: 5px;
+}
+/* ------- LINK and INFO ----- */
+
+/* ------ WYSIWYG --------- */
+h1, h2 {
+	color: #000000;
+	font-size: 1.6em;
+	font-weight: normal;
+	font-style: italic;
+}
+h3 {
+	color: #000000;
+	font-size: 1.4em;
+	font-weight: normal;
+	font-style: italic;
+}
+h4 {
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: normal;
+	font-style: italic;
+}
+h5 {
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+h6 {
+	color: #000000;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+a {
+	color: #98af2b;
+	text-decoration: underline;
+}
+a:hover {
+	color: #454143;
+	text-decoration: underline;
+}
+
+.boxContent img {
+	margin: 5px;
+	background-color: #98af2b;
+	border: 5px solid #98af2b;
+}
+.boxContent p {
+	margin-bottom: 7px;
+	line-height: 1.6em;						   
+}
+
+.boxContent ol {
+	margin: 10px 0 10px 30px;
+}
+.boxContent ol li ol {
+	margin: 0 0 0 15px;
+}
+.boxContent ol li {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: decimal;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.boxContent ul {
+	padding: 10px 0 10px 10px;
+}
+.boxContent ul li {
+	background: url(../img/li.png) no-repeat 0px 7px;
+	padding: 3px 0 2px 20px;
+}
+#sidebar .boxContent ul li, #right .boxContent ul li {
+	background: url(../img/li.png) no-repeat 0px 7px; 
+}
+.boxContent ul li ul {
+	padding: 0 0 0 0;
+}
+.boxContent ul li ul li {
+	background: url(../img/li.png) no-repeat 0px 7px;
+	padding: 3px 0 2px 20px;
+}
+#sidebar .boxContent ul li ul li, #right .boxContent ul li ul li {
+	background: url(../img/li.png) no-repeat 0px 7px;
+}
+blockquote {
+	color: #98af2b;
+	font-style: italic;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 0 0 1px;
+}
+*html .box table {
+  font-size: 0.9em;
+}
+.modernTable {
+	border-collapse: collapse;
+	margin: 0 0 0 1px;
+}
+#sidebar .modernTable, #right .modernTable {
+	margin-left: 1px;
+}
+.modernTable thead tr td {
+	background: #98af2b;
+	border: 1px solid #98af2b;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0;
+	color: #FFFFFF;
+}
+.modernTable tbody tr td {
+	background: none;
+	border: 1px solid #98af2b;
+	padding-left: 8px;
+	padding-right: 5px;
+	margin: 0;
+}
+.rbcWidgetArea {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/* ------ WYSIWYG --------- */
+
+/* ------ DISCUSSION --------- */
+.diskuze h4 {
+	margin-top: 7px;
+}
+.diskuze label.wrong {
+	color: #f52723;
+}
+.diskuze #postAuthor.wrong, .diskuze #postEmail.wrong, .diskuze #postTitle.wrong {
+	border: 1px solid #f52723;
+}
+
+.post {
+	height: auto;
+	margin: 0 0 5px 100px;
+	overflow: hidden;
+	padding: 0 0 0 10px;
+	background: url(../img/small_bell.jpg) no-repeat 0 12px;
+}
+.level-1 {
+	margin-left: 0px;
+	background: none;
+	padding-left: 0;
+}
+.level-2 {
+	margin-left: 20px;
+	background: url(../img/small_bell.jpg) no-repeat 0 12px;
+	padding-left: 10px;
+}
+.level-3 {
+	margin-left: 40px;
+	background: url(../img/small_bell.jpg) no-repeat 0 12px;
+	padding-left: 10px;
+}
+.level-4 {
+	margin-left: 60px;
+	background: url(../img/small_bell.jpg) no-repeat 0 12px;
+	padding-left: 10px;
+}
+.level-5 {
+	margin-left: 80px;
+	background: url(../img/small_bell.jpg) no-repeat 0 12px;
+	padding-left: 10px;
+}
+.post .head {
+	padding: 5px 5px 0 5px;
+	color: #1B1B1B;
+}
+.post .text {
+	padding: 0 5px 0 5px;
+}
+.post .head h3 {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	background: none;
+}
+.post .head p {
+	margin: 0;
+	padding: 0;
+	color: #434145;
+	font-size: 0.9em;
+}
+.post .head .date, .post .head .user, .post .head .title {
+	color: #434145;
+	text-transform: lowercase;
+}
+.post .head ins {
+	text-decoration: none;
+}
+.post .reply {
+	float: right;
+	margin-right: 10px;
+	text-transform: lowercase;
+}
+.post .reply a {
+	color: #000000;
+	text-decoration: underline;
+}
+.post .reply a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+.newPost {
+	font-weight: bold;
+	margin-top: 5px;
+}
+/* ------ DISCUSSION --------- */
+
+/* ------ FAQ ---------------- */
+.question h3.title {
+	cursor: pointer;
+	text-decoration: underline;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.question h3.title:hover {
+	color: #98af2b;
+	font-weight: bold;
+}
+.hideAnswer {
+	color: #98af2b;
+	background: url(../img/faq_close.jpg) no-repeat;
+	padding-left: 25px;
+	font-weight: bold;
+}
+.viewAnswer {
+	color: #000000;
+	background: url(../img/faq_open.jpg) no-repeat;
+	padding-left: 25px;
+	font-weight: bold;
+}
+.answerBlock {
+	margin-top: 5px;
+	padding-left: 25px;
+}
+/* ------ FAQ ---------------- */
+
+/* ----- LINKS -------------- */
+.item {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+#sidebar .item, #right.item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.item h2.title {
+	font-size: 1.2em;
+	font-weight: bold;
+	background: none;
+	padding-left: 0;
+	color: #98af2b;
+}
+.item h2.title a {
+	color: #98af2b;
+}
+.item h2.title a:hover {
+	color: #434145;
+}
+.item .uri {
+	margin-bottom: 5px;
+	font-size: 0.9em;
+}
+.item .uri a { 
+	color: #646464;
+	text-decoration: underline;
+}
+.item .uri a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.itemContent {
+	line-height: 1.5em;
+}
+/* ----- LINKS -------------- */
+
+/* ---- SERVERMAP ----------- */
+ul.ServerMap {
+	padding: 0 0 0 0;
+}
+ul.ServerMap li {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	background: none;
+	padding: 4px 0 4px 0;
+}
+ul.ServerMap li a {
+	font-size: 1.2em;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+ul.ServerMap ul.level1 {
+	padding: 5px 0 0 10px;
+}
+ul.ServerMap ul.level1 li {
+	background: none;
+	padding-left: 0;
+}
+ul.ServerMap ul.level1 li a {
+	color: #000000;
+	text-decoration: underline;
+	background: url(../img/small_bell.jpg) no-repeat 0 5px;
+	padding-left: 15px;
+	font-weight: normal;
+	font-size: 1em;
+}
+ul.ServerMap ul.level1 li a:hover {
+	color: #98af2b;
+}
+
+ul.ServerMap ul.level1 ul {
+	padding: 5px 0 0 10px;
+}
+ul.ServerMap ul.level1 ul li {
+	background: none;
+	padding-left: 5px;
+}
+ul.ServerMap ul.level1 ul li a {
+	color: #000000;
+	text-decoration: underline;
+	background: url(../img/small_bell.jpg) no-repeat 0 5px;
+	padding-left: 15px;
+	font-weight: normal;
+	font-size: 1em;
+}
+ul.ServerMap ul.level1 a:hover {
+	color: #434145;
+} 
+/* ---- SERVERMAP ----------- */
+
+/* ---- PRODUCTS ------------ */
+.product {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.product .title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+/* ---- PRODUCTS ------------ */
+
+/* ---- POLL ---------------- */
+.poll img, .poll a img, .boxContent .poll img, .boxContent .poll a img {
+	border: none;
+	text-decoration: none;
+	margin: 0;
+}
+/* ---- POLL ---------------- */
